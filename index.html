@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>Prueba</title>
+</head>
+<body>
+
+    <form class="form d-grid gap-4" id="form">
+        <div id="prueba"></div>
+        <div class="input-group">
+            <span class="input-group-text" id="inputGroup-sizing-default">Nombre</span>
+            <input type="text" class="form-control" id="nombre" name="nombre" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+            <div id="validationServerUsernameFeedback" class="invalid-feedback errorNombre">
+                Todos los campos deben estar completos
+            </div>
+        </div>
+        <div class="input-group">
+            <span class="input-group-text" id="inputGroup-sizing-default">Apellido</span>
+            <input type="text" class="form-control" id="apellido" name="apellido" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+            <p id="validationServerUsernameFeedback" class="invalid-feedback errorApellido">
+                Todos los campos deben estar completos
+            </p>
+        </div>
+        <div class="input-group">
+            <span class="input-group-text" id="inputGroup-sizing-default">number</span>
+            <input type="number" class="form-control" id="numero" name="numero" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+            <div id="validationServerUsernameFeedback" class="invalid-feedback errorNumero">
+                Todos los campos deben estar completos
+            </div>
+        </div>
+        <div class="input-group">
+            <span class="input-group-text" id="inputGroup-sizing-default">Key code</span>
+            <input type="number" class="form-control" id="keyCode" name="keyCode" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+            <div id="validationServerUsernameFeedback" class="invalid-feedback errorKeyCode">
+                Todos los campos deben estar completos
+            </div>
+        </div>
+        <div class="col-auto">
+            <button class="btn btn-primary" type="submit">Submit form</button>
+        </div>
+    </form>
+    <div class="alert-good active">
+        <div class="alert alert-success" role="alert">
+            <h4 class="alert-heading">Buen Trabajo!</h4>
+            <p>Todos los datos se han validado correctamente</p>
+        </div>
+    </div>
+    
+
+    
+
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
