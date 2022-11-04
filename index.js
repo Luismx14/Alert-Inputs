@@ -51,7 +51,7 @@ form.addEventListener("submit", function(event){
     }
     if(keyCode.length > 4){
         keyCode0.classList.add("is-invalid", "border-2");
-        errorKeyCode.innerHTML = "el Codigo de seguridad no debe contener mas de 4 digitos"
+        errorKeyCode.innerHTML = "El Codigo de seguridad no debe contener mas de 4 digitos"
     }
     // ======= alert Good ! ===== //
     if (nombre.length > 0 && nombre.length < 20 && apellido.length > 0 && apellido.length < 20 && numero.length > 0 && numero.length ==10 && keyCode.length > 0 && keyCode.length == 4){
